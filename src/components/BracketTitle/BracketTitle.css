@@ -1,0 +1,30 @@
+.bracket-label {
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: center;
+    line-height: 1;
+}
+
+.custom-bracket {
+    position: relative;
+    border: 0.1em solid currentColor;
+    border-radius: 0.25em;
+    width: 0.45em;
+    margin-top: -0.05em;
+    margin-bottom: -0.05em;
+    box-sizing: border-box;
+}
+
+.bracket-l {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0.25em;
+}
+
+.bracket-r {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0.25em;
+}
